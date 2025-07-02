@@ -1,0 +1,14 @@
+ul {list-style: none;}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+.list-item {
+    width: calc((100% - 48px) / 3);
+}
+.image-card {
+ width: 360px;
+ height: 300px;
+}
